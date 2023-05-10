@@ -8,7 +8,7 @@ To enable NVIDIA GPU support with Docker,
 first setup [NVIDIA Container Toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html).
 
 Unfortunately, as mentioned in the [docs](https://github.com/NVIDIA/nvidia-docker/wiki/Advanced-topics#default-runtime), 
-the only way to access the GPU during build is by setting the Docker `default-runtime` to `nvidia`.
+the only way to access the GPU during build is by setting the Docker `default-runtime` to `nvidia`. So please do that.
 
 ```bash
 docker build . -t stable-diffusion-webui
