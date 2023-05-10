@@ -32,7 +32,7 @@ docker run --rm -it --name llama-cpp \
 For example:
 
 ```bash
-MODELS_PATH_ON_HOST="$(pwd)"/models
+MODELS_PATH_ON_HOST="$(pwd)/models"
 MODEL_PATH_IN_CONTAINER="/app/llama.cpp/models/mounted/ggml-model-q4_0.bin"
 docker run --rm -it --name llama-cpp \
     --mount type=bind,source=$MODELS_PATH_ON_HOST,target=/app/llama.cpp/models/mounted,readonly \
