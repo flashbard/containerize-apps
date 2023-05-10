@@ -2,7 +2,7 @@
 
 [llama-cpp](https://github.com/ggerganov/llama.cpp) containerized! Pure CPU based build.
 
-# Build
+## Build
 
 Please ensure that your system meets the [pre-requisites](https://github.com/ggerganov/llama.cpp/blob/master/README.md#memorydisk-requirements).
 
@@ -10,7 +10,7 @@ Please ensure that your system meets the [pre-requisites](https://github.com/gge
 docker build . -t llama-cpp
 ```
 
-# Run
+## Run
 
 Assuming you have the ggml models available, you can run the following 
 [command](https://github.com/ggerganov/llama.cpp/blob/master/README.md#interactive-mode) to start the application in
