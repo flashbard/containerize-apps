@@ -50,7 +50,7 @@ docker run --rm -it --name stable-diffusion-webui \
     --force-enable-xformers
 ```
 
-On the host, you can access `localhost:7860` on the host to use the application. We make use of the 
+On the host, you can access `localhost:7860` to use the application. We make use of the 
 [xformers](https://github.com/facebookresearch/xformers) package for better optimized memory usage.
 
 In a similar way, you can run other commands. Please note that there is no persistence for these containers, 
